@@ -4,6 +4,19 @@ About
 ---------
 - Simulates time travel by using the time dilation formula
 
+Building
+---------
+To build the project, use the included `makefile` and run the command below
+which will build the `.jar` file.
+```bash
+make jar
+```
+
+To run the `.jar` file, run the following command:
+```bash
+java -jar time_travel.jar
+```
+
 Utilization
 ------------
 You have three options:
@@ -12,7 +25,7 @@ You have three options:
 - Enter how long you want it to take and how fast you're going
 
 Example choices output:
-```bash
+```
 How would you like to time travel?
 1. Give destination time and time traveled?
 2. Give destination time and speed
